@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  toolbox-app:
+    image: toolbox-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - '80:80'

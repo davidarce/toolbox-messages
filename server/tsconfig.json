@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+     "module": "commonjs",
+     "baseUrl": "./",
+     "outDir": "build",
+     "target": "es6",
+     "moduleResolution": "node",
+     "esModuleInterop": true,
+     "lib": ["es6"],
+     "allowJs": true,
+     "forceConsistentCasingInFileNames": true,
+     "types": ["jest"],
+     "typeRoots": ["./types", "./node_modules/@types"]
+   },
+   "include": [
+     "**.ts",
+   ],
+   "exclude": [
+    "node_modules",
+    "!node_modules/@types",
+     "./client"
+   ]
+ }
